@@ -4,13 +4,17 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Hey Baby {}
 
-Welcome to {}
+Welcome to {} fantastic rename bot 
 
 You can use me to rename documents and files with certain other features. Use `/help` to learn how !
 
-By @StarkBots
+┏❖ Bot created by 
+┗ ☞@PAPA_BOL_SAKTEHO
+
+┏❖ Feelings 
+┗ ☞ @ABOUT_AJEET
     """
 
     # Home Button
@@ -20,13 +24,13 @@ By @StarkBots
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/About_AJEET")],
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
             InlineKeyboardButton("🎪 About 🎪", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
-        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/StarkBotsChat")],
+        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/AJEET_BOTS")],
+        [InlineKeyboardButton("🎨 Support Group 🎨", url="https://t.me/MODERN_ELEMENTS")],
     ]
 
     # Help Message
@@ -49,13 +53,15 @@ Just send a document / video to start renaming. Then when asked, give the new na
     ABOUT = """
 **About This Bot** 
 
-A telegram rename bot by @StarkBots
+A telegram rename bot by @ABOUT_AJEET
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/RenameTelegramBot)
+More bots : [Click Here](https://t.me/ajeet_bots)
+
+Source Code : [Click Here](https://t.me/papa_bol_sakteho)
 
 Framework : [Pyrogram](docs.pyrogram.org)
 
 Language : [Python](www.python.org)
 
-Developer : @StarkProgrammer
+Developer : [𓆩〭⃛〬𓆩〭⃛〬➤⃝✖‿✖•Ajͥeeͣtͫ](https://t.me/papa_bol_sakteho)
     """
